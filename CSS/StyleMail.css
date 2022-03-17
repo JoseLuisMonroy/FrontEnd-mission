@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trianguloabajo{
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid rgb(217, 217, 218);
+  border-left: 50px solid transparent;
+  }
+
+.trianguloizquierda{
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-right: 50px solid rgb(217, 217, 218);
+  border-bottom: 100px solid transparent;
+}
+.trianguloDerecha{
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 50px solid rgb(217, 217, 218);
+  border-bottom: 100px solid transparent;
+}
+.trianguloArriba{
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(217, 217, 218);
+  border-left: 100px solid transparent;
+  }
+.mainText{
+  color: blue;
+}
