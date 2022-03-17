@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="eng">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
     <link rel="stylesheet" href="./backgroud.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="mainLeft">
         <div class="topleft">
             <div class="topleftdown"></div>
             <div class="bgtop"></div>
-        <div><br><br><br><br><br><br></div>
-      <input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
-      <img src="./images/pokeBola.png" alt="Pokemon" id="pokeImg" width="150px"></body>
-      <button onclick="fetchPokemon()">Cambiar pokemon</button>
+            <div class="circleMainTop">
+                <div class="circleBlue">
+                    <div class="circleLow"></div>
+                </div>
+            </div>
+            <div class="ledRed"></div>
+            <div class="ledYellow"></div>
+            <div class="ledGreen"></div>
+            <div><br><br><br><br><br><br></div>
+            <div class="bordeScreen">
+                <div class="ledRedscreen1"></div>
+                <div class="ledRedscreen2"></div>
+                <div class="tringuloCorte"></div>
+                <div class="refrigeracion">
+                    <div class="refrigeracion1">
+                        <div class="refrigeracion1"></div>
+                    </div>
+                </div>
+                <button class="botonScreen" onclick="fetchPokemon()">Cambiar</button><input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+                <div class="screen">
+                <img class="imagen" src="./images/pokeBola.png" alt="Pokemon" id="pokeImg">
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-  </body>
-  <footer>
-    <script src="./pokedex.js" ></script>
-  </footer>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+
 </html>

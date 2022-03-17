@@ -5,6 +5,7 @@
   height: 700px;
   background: rgb(207, 11, 11);
 }
+
 .topleft {
   position: absolute;
   border-top-left-radius: 20px;
@@ -13,6 +14,7 @@
   height: 50px;
   background: rgb(151, 7, 7);
 }
+
 .topleftdown {
   border-radius: 0 0 100% 0;
   position: absolute;
@@ -20,4 +22,151 @@
   width: 300px;
   height: 50px;
   background: rgb(151, 7, 7);
+}
+
+.circleMainTop {
+  position: absolute;
+  border-radius: 100%;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  background: rgb(255, 255, 255);
+}
+
+.circleBlue {
+  position: absolute;
+  border-radius: 100%;
+  top: 11px;
+  left: 11px;
+  width: 60px;
+  height: 60px;
+  background: rgb(27, 133, 255);
+}
+
+.circleLow {
+  position: absolute;
+  border-radius: 100%;
+  top: 2px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+  background: rgb(151, 202, 255);
+}
+
+.ledRed {
+  position: absolute;
+  border-radius: 100%;
+  top: 20px;
+  left: 145px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #555;
+  background: rgb(255, 0, 0);
+}
+
+.ledYellow {
+  position: absolute;
+  border-radius: 100%;
+  top: 20px;
+  left: 185px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #555;
+  background: rgb(255, 230, 0);
+}
+
+.ledGreen {
+  position: absolute;
+  border-radius: 100%;
+  top: 20px;
+  left: 225px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #555;
+  background: rgb(0, 255, 64);
+}
+
+.bordeScreen {
+  position: absolute;
+  border-radius: 20px;
+  top: 125px;
+  left: 50px;
+  width: 350px;
+  height: 350px;
+  background: rgb(153, 153, 153);
+}
+.tringuloCorte {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 270px;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid rgb(207, 11, 11);
+  border-bottom: 50px solid rgb(207, 11, 11);
+}
+.screen{
+  position: absolute;
+  border-radius: 20px;
+  top: 20px;
+  left: 20px;
+  width: 310px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+}
+.imagen{
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  width: 150px;
+  height: 150px;
+}
+.ledRedscreen1 {
+  position: absolute;
+  border-radius: 100%;
+  top: 2px;
+  left: 160px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #555;
+  background: rgb(255, 0, 0);
+}
+.ledRedscreen2 {
+  position: absolute;
+  border-radius: 100%;
+  top: 2px;
+  left: 188px;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #555;
+  background: rgb(255, 0, 0);
+}
+.botonScreen{
+  position: absolute;
+  border-radius: 100%;
+  top: 290px;
+  left: 90px;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #555;
+  background: rgb(255, 0, 0);
+}
+
+.refrigeracion{
+  position: absolute;
+  border-radius: 20px;
+  top: 300px;
+  left: 200px;
+  width: 100px;
+  height: 5px;
+  background: rgb(0, 0, 0);
+}
+.refrigeracion1{
+  position: absolute;
+  border-radius: 20px;
+  top: 10px;
+  width: 100px;
+  height: 5px;
+  background: rgb(0, 0, 0);
 }
