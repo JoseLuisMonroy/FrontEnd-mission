@@ -1,3 +1,13 @@
+button{
+  font-size: 10px;
+}
+input{
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  top: 10px;
+}
+
 .mainLeft {
   position: absolute;
   border-radius: 20px;
@@ -169,4 +179,362 @@
   width: 100px;
   height: 5px;
   background: rgb(0, 0, 0);
+}
+
+.botonBlue{
+  position: absolute;
+  border-radius: 100%;
+  top: 500px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #555;
+  background: rgb(68, 111, 255);
+}
+.botonmenuVerde{
+  position: absolute;
+  border-radius: 20px;
+  top: 522px;
+  left: 200px;
+  width: 80px;
+  height: 10px;
+  border: 3px solid #555;
+  background: green;
+}
+.botonmenuNaranja{
+  position: absolute;
+  border-radius: 20px;
+  top: 522px;
+  left: 300px;
+  width: 80px;
+  height: 10px;
+  border: 3px solid #555;
+  background: rgb(255, 153, 0);
+}
+
+.cruzdown{
+  position: absolute;
+  border-radius: 20px;
+  top:590px;
+  left:270px;
+  width: 100px;
+  height: 30px;
+  background: rgb(66, 66, 66);
+}
+.cruzup{
+  position: absolute;
+  border-radius: 20px;
+  top:555px;
+  left:305px;
+  width: 30px;
+  height: 100px;
+  background: rgb(66, 66, 66);
+}
+.screenName{
+  position: absolute;
+  border-radius: 20px;
+  top: 570px;
+  left: 100px;
+  width: 150px;
+  height: 100px;
+  border: 3px solid #555;
+  background: rgb(251, 255, 0);
+}
+.limite{
+  position: absolute;
+  border-radius: 10px;
+  top: 50px;
+  left: 449px;
+  width: 45px;
+  height: 644px;
+  border: 3px solid rgb(114, 3, 3);
+  background: rgb(207, 11, 11);
+}
+.bandUp{
+  position: absolute;
+  top: 50px;
+  width: 39px;
+  height: 15px;
+  border: 3px solid rgb(114, 3, 3);
+  background: rgb(207, 11, 11);
+}
+.bandDown{
+  position: absolute;
+  bottom: 50px;
+  width: 39px;
+  height: 15px;
+  border: 3px solid rgb(114, 3, 3);
+  background: rgb(207, 11, 11);
+}
+
+.mainright{
+    position: absolute;
+    border-bottom-right-radius : 20px;
+    top: 55px;
+    left: 508px;
+    width: 500px;
+    height: 650px;
+    background: rgb(207, 11, 11);
+}
+.topUpright {
+  border-radius: 0 0 0 100%;
+  position: absolute;
+  left: 200px;
+  width: 300px;
+  height: 50px;
+  background: rgb(255, 255, 255);
+}
+.screenright{
+  position: absolute;
+  border-radius: 20px;
+  top: 150px;
+  left: 100px;
+  width: 300px;
+  height: 150px;
+  background: rgb(30, 255, 0);
+  border: 3px solid #555;
+}
+
+.botonesmenu{
+  position: absolute;
+  border-radius: 20px;
+  top: 350px;
+  left: 100px;
+  width: 300px;
+  height: 100px;
+  background: rgb(82, 163, 255);
+  border: 3px solid #555;
+}
+.bordeBoton{
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  border-top-left-radius: 17px;
+  border: solid rgb(0, 119, 255);
+}
+.botn1{
+  position: absolute;
+  left: 60px;
+  width: 60px;
+  height: 45px;
+  border: solid rgb(0, 119, 255);
+}
+.botn2{
+  position: absolute;
+  left: 120px;
+  width: 60px;
+  height: 45px;
+  border: solid rgb(0, 119, 255);
+}
+.botn3{
+  position: absolute;
+  left: 180px;
+  width: 60px;
+  height: 45px;
+  border: solid rgb(0, 119, 255);
+}
+.botn4{
+  position: absolute;
+  left: 240px;
+  width: 54px;
+  height: 45px;
+  border-top-right-radius: 17px;
+  border: solid rgb(0, 119, 255);
+}
+.botn5{
+  position: absolute;
+  top: 49px;
+  width: 60px;
+  height: 45px;
+  border-bottom-left-radius: 17px;
+  border: solid rgb(0, 119, 255);
+}
+.botn6{
+  position: absolute;
+  top: 49px;
+  left: 60px;
+  width: 60px;
+  height: 45px;
+  border: solid rgb(0, 119, 255);
+}
+.botn7{
+  position: absolute;
+  top: 49px;
+  left: 120px;
+  width: 60px;
+  height: 45px;
+  border: solid rgb(0, 119, 255);
+}
+.botn8{
+  position: absolute;
+  top: 49px;
+  left: 180px;
+  width: 60px;
+  height: 45px;
+  border: solid rgb(0, 119, 255);
+}
+.botn9{
+  position: absolute;
+  top: 49px;
+  left: 240px;
+  width: 54px;
+  height: 45px;
+  border-bottom-right-radius: 17px;
+  border: solid rgb(0, 119, 255);
+}
+.botn10{
+  position: absolute;
+  border-radius: 100%;
+  top: 480px;
+  left: 100px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #555;
+  background: rgb(255, 136, 0);
+}
+.botn11{
+  position: absolute;
+  border-radius: 100%;
+  top: 480px;
+  left: 130px;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #555;
+  background: rgb(36, 97, 28);
+}
+.botn12{
+  position: absolute;
+  border-radius: 20px;
+  top: 480px;
+  left: 200px;
+  width: 80px;
+  height: 10px;
+  border: 3px solid #555;
+  background: rgb(50, 209, 50);
+}
+.botn13{
+  position: absolute;
+  border-radius: 20px;
+  top: 480px;
+  left: 300px;
+  width: 80px;
+  height: 10px;
+  border: 3px solid #555;
+  background: rgb(255, 153, 0);
+}
+.botn14{
+  position: absolute;
+  top: 520px;
+  left: 100px;
+  width: 40px;
+  height: 30px;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  background: rgb(153, 153, 153);
+  border: solid rgb(70, 70, 70);
+}
+.botn15{
+  position: absolute;
+  top: 520px;
+  left: 147px;
+  width: 40px;
+  height: 30px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  background: rgb(153, 153, 153);
+  border: solid rgb(70, 70, 70);
+}
+
+.cuerpoflechaIz{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 15px;
+  height: 10px;
+  background: rgb(167, 0, 0);
+}
+.cabezaflechaIz{
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 8px;
+  left: 5px;
+  border-top: 7px solid transparent;
+  border-right: 15px solid rgb(167, 0, 0);
+  border-bottom: 7px solid transparent;
+}
+.cuerpoflechaDe{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 15px;
+  height: 10px;
+  background: rgb(167, 0, 0);
+}
+.cabezaflechaDe{
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 8px;
+  right: 5px;
+  border-top: 7px solid transparent;
+  border-left: 15px solid rgb(167, 0, 0);
+  border-bottom: 7px solid transparent;
+}
+
+.botn16{
+  position: absolute;
+  top: 520px;
+  left: 350px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: rgb(196, 199, 0);
+  border: solid #555;
+}
+.cuerpoflechaIzBut{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  background: rgb(167, 0, 0);
+}
+.cabezaflechaIzBut{
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 13px;
+  left: 5px;
+  border-top: 7px solid transparent;
+  border-right: 15px solid rgb(167, 0, 0);
+  border-bottom: 7px solid transparent;
+}
+.colita{
+  position: absolute;
+  top: 15px;
+  left: 27px;
+  width: 5px;
+  height: 10px;
+  background: rgb(167, 0, 0);
+}
+.screen1{
+  position: absolute;
+  border-radius: 20px;
+  top: 570px;
+  left: 100px;
+  width: 120px;
+  height: 50px;
+  background: rgb(255, 166, 0);
+  border: solid #555;
+}
+.screen2{
+  position: absolute;
+  border-radius: 20px;
+  top: 570px;
+  right: 100px;
+  width: 120px;
+  height: 50px;
+  background: rgb(255, 166, 0);
+  border: solid #555;
 }

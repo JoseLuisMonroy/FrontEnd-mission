@@ -14,11 +14,8 @@ const fetchPokemon = () => {
         pokeImage(pokeImg);
     })
 }
-//fetchPokemon();
 
 const pokeImage = (url) =>{
     const pokeImage = document.getElementById("pokeImg");
     pokeImage.src = url;
 }
-
-//pokeImage("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png");
