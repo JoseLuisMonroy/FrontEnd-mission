@@ -32,17 +32,18 @@
                         <div class="refrigeracion1"></div>
                     </div>
                 </div>
-                <div class="botonScreen"></div>
+                <button class="botonScreen" onclick="backInicio()">Inicio</button>
                 <div class="screen">
                 <img class="imagen" src="./images/pokeBola.png" alt="Pokemon" id="pokeImg">
                 </div>
             </div>
-            <button class="botonBlue" onclick="fetchPokemon()">Cambiar</button>
+            <button class="botonBlue" onclick="fetchPokemon()">Buscar</button>
             <div class="botonmenuVerde"></div>
             <div class="botonmenuNaranja"></div>
             <div class="cruzdown"></div>
             <div class="cruzup"></div>
-            <div class="screenName"></div>
+            <input class="screenName" type="text" placeholder="Ingresa el nombre" id="pokeName" name="pokeName">
+            
         </div>
         <div class="limite">
             <div class="bandUp"></div>
@@ -51,7 +52,7 @@
     </div>
     <div class="mainright">
         <div class="topUpright"></div>
-        <input class="screenright" type="text" placeholder="Ingrese el nombre de su Pokemon" id="pokeName" name="pokeName">
+        <div class="screenright"></div>
         <div class="botonesmenu">
             <div class="bordeBoton"></div>
             <div class="botn1"></div>

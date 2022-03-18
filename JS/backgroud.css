@@ -1,11 +1,10 @@
 button{
-  font-size: 10px;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: bold;
 }
 input{
-  position: absolute;
-  font-size: 18px;
-  text-align: center;
-  top: 10px;
+  font-size: 15px;
 }
 
 .mainLeft {
@@ -233,6 +232,7 @@ input{
 .screenName{
   position: absolute;
   border-radius: 20px;
+  text-align: center;
   top: 570px;
   left: 100px;
   width: 150px;
@@ -240,6 +240,11 @@ input{
   border: 3px solid #555;
   background: rgb(251, 255, 0);
 }
+.screenName p {
+  padding-top: 20px;
+}
+
+
 .limite{
   position: absolute;
   border-radius: 10px;

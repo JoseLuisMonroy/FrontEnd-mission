@@ -4,7 +4,7 @@ const fetchPokemon = () => {
     const url = `https://pokeapi.co/api/v2/pokemon/${pokeInput}`;
     fetch(url).then((res) => {
         if ( res.status !=200){
-            pokeImage("./images/pokeBola.png");
+            pokeImage("./images/nofound.jpg");
         }
         return res.json();
     }).then((data)=>{
@@ -13,6 +13,10 @@ const fetchPokemon = () => {
         console.log(pokeImg);
         pokeImage(pokeImg);
     })
+}
+const backInicio = () =>{
+    pokeImage("./images/pokeBola.png");
+    document.getElementById("pokeName").value = "";
 }
 
 const pokeImage = (url) =>{
